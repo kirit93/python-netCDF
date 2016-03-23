@@ -9,7 +9,7 @@ import numpy as np
 # an array of just the 10 MFCCs. Those 10 mfccs are converted to 
 # NETCDF form
 
-rawDump = np.array(pd.read_csv("/Users/kirit/BtechProject/Analysis/DataDumps/dataDump.csv", header=None))
+rawDump = np.array(pd.read_csv("path/to/filename.csv", header=None))
 
 data = rawDump[:, 1:]
 
